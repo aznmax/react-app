@@ -2,6 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './Sass/header.scss';
 import "./Sass/banniere.scss";
+import "./Sass/container.scss";
+import "./Sass/footer.scss";
 import App from './App';
 
 
