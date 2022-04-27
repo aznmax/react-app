@@ -4,8 +4,7 @@ import Header from "./Header";
 import Banniere from "./Banniere";
 import Homepage from "./Homepage";
 import Footer from "./Footer";
-
-
+import About from "./About";
 
 class App extends React.Component {
     render() {
@@ -15,11 +14,11 @@ class App extends React.Component {
                 <BrowserRouter>
                     <Banniere />
                     <Routes>
-                        <Route path="/" element={<Homepage/>}  />
-                        <Route path="/users" element={<p>Test2</p>} />
+                        <Route path="/" element={<Homepage />} />
+                        <Route path="/about" element={<About />} />
                     </Routes>
                 </BrowserRouter>
-                <Footer/>
+                <Footer />
             </div>
         );
     }

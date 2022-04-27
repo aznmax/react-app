@@ -4,6 +4,7 @@ import './Sass/header.scss';
 import "./Sass/banniere.scss";
 import "./Sass/container.scss";
 import "./Sass/footer.scss";
+import "./Sass/about.scss";
 import App from './App';
 
 
