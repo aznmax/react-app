@@ -1,10 +1,10 @@
-import photoBanniere from "./alberta-2297204_1920.jpg";
 
-function Banniere() {
+
+
+function Banniere(props) {
     return (
-        <div className="customBanniere">
-            <h1>Chez vous partout, et ailleurs</h1>
-            <img src={photoBanniere} alt="" />
+        <div>
+            <img src={props.src} alt="" />
         </div>
     );
 }

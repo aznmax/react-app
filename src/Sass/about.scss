@@ -1,29 +1,8 @@
-body {
-    margin: 0;
-}
-
-.headerPart{
-
-    margin-left: 200px;
-    margin-top: 30px;
+.BanniereAbout{
     img{
-        width: 200px;
-    }
-}
-
-
-.customBanniere {
-    display: none;
-}
-
-.aboutPart {
-    display: flex;
-    justify-content: center;
-    img {
-        width: 80%;
-        height: 250px;
-        object-fit: cover;
-        margin-top: 80px;
+        width: 700px;
+        display: block;
+        margin: auto;
         border-radius: 40px;
     }
 }

@@ -1,12 +1,16 @@
+import Banniere from "./Banniere"
 
-import photoBanniereAbout from "./accommodation-20-3.jpg"
+function pageAbout(){
 
-function AboutTest() {
-    return (
-        <div className="aboutPart">
-            <img src={photoBanniereAbout} alt="" />
+    return(
+        <div className="BanniereAbout">
+
+            <Banniere src="/images/img2.jpg"/>
         </div>
-    );
+
+    )
+
+
 }
 
-export default AboutTest;
+export default pageAbout;
