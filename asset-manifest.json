@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/aznmax/react-app/static/css/main.3d27e084.css",
+    "main.js": "/aznmax/react-app/static/js/main.f2ddbb11.js",
+    "static/media/kasa.png": "/aznmax/react-app/static/media/kasa.9e2e1bf1c1953ee80759.png",
+    "index.html": "/aznmax/react-app/index.html",
+    "main.3d27e084.css.map": "/aznmax/react-app/static/css/main.3d27e084.css.map",
+    "main.f2ddbb11.js.map": "/aznmax/react-app/static/js/main.f2ddbb11.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3d27e084.css",
+    "static/js/main.f2ddbb11.js"
+  ]
+}
