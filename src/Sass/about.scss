@@ -1,8 +1,78 @@
 .BanniereAbout{
     img{
-        width: 700px;
+        width: 1240px;
+        height: 223px;
         display: block;
         margin: auto;
+        margin-top: 80px;
         border-radius: 40px;
+    }
+
+    .BlocAbout{
+        margin: auto;
+        width: 1023px;
+        height: 47px;
+        text-align: center;
+        line-height: 47px;
+        background-color: #FF6060;
+        border-radius: 5px;
+        color: #ffff;
+        margin-top: 150px;
+        font-size: 24px;
+        p{
+            text-align: start;
+            margin-left: 20px;
+            font-size: 24px;
+        }
+    }
+
+    .BlocAbout2{
+        margin: auto;
+        width: 1023px;
+        height: 47px;
+        text-align: center;
+        line-height: 47px;
+        background-color: #FF6060;
+        border-radius: 5px;
+        color: #ffff;
+        margin-top: 50px;
+        font-size: 24px;
+        p{
+            text-align: start;
+            margin-left: 20px;
+            font-size: 24px;
+        }
+        
+    }
+    
+    .TextAbout2{
+        text-align: start;
+        white-space: pre-wrap;
+        width: 800px;
+        margin-left: 420px;
+        display: block;
+        font-size: 24px;
+        color: #FF6060;
+        p{
+            margin-top: 70px;
+            margin-left: 33px;
+        }
+    }
+    .BlocAbout3{
+        margin: auto;
+        width: 1023px;
+        height: 47px;
+        text-align: center;
+        line-height: 47px;
+        background-color: #FF6060;
+        border-radius: 5px;
+        color: #ffff;
+        margin-top: 80px;
+        p{
+            text-align: start;
+            margin-left: 20px;
+            font-size: 24px;
+        }
+        
     }
 }

@@ -1,6 +1,8 @@
 .Homepage{
 
 .BanniereAccueil{
+    position: relative;
+  
     img{
 
        display: block;
@@ -12,6 +14,19 @@
        border-radius: 30px;
        margin-top: 80px;
     }
+
+    .textBanniere{
+        position: absolute;
+        top: 50px;
+        left: 680px;
+        display: block;
+        font-size: 30px;
+        color: #ffff;
+        font-family: "Montserrat";
+
+    }
+
+   
 }
 
 .ContainerAppartement{

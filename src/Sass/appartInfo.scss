@@ -1,0 +1,62 @@
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .appart_info {
+        img {
+            width: 1240px;
+            height: 415px;
+            display: block;
+            margin: auto;
+            border-radius: 25px;
+        }
+    }
+
+
+
+
+
+   
+    
+}
+
+.globalContainer{
+    display: flex;
+  justify-content: space-around;
+    .containerDescription{
+        width: 520px;
+        height: 52px;
+        line-height: 52px;
+        color: #fff;
+        font-size: 18px;
+        text-indent: 15px;
+        margin-left: 330px;
+        margin-top: 80px;
+        background: #FF6060;
+    }
+
+    .containerEquipment{
+        width: 520px;
+        height: 52px;
+        line-height: 52px;
+        color: #fff;
+        font-size: 18px;
+        text-indent: 15px;
+        margin-right: 80px;
+        margin-top: 80px;
+        background: #FF6060;
+    }
+
+   .all_information_description{
+
+    .description_appart{
+        display: block;
+        margin-left: 330px;
+        width: 30%;
+        color: #FF6060;;
+        font-size: 18px;
+    }
+
+   }
+}

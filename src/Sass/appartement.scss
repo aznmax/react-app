@@ -1,5 +1,5 @@
 .ContainerAppartement{
-    .list {
+    .listAppartment {
         
         display: flex;
             justify-content: center;
@@ -7,17 +7,62 @@
             flex-wrap: wrap;
         
         .appartmentPosition {
-            
+        
             &:nth-child(2){
                 margin-top:20px;
             }
             &:nth-child(3){
-                margin-top:20px;
+                margin-top:0px;
             }
             &:nth-child(4){
                 margin-top:20px;
             }
             &:nth-child(5){
+                margin-top:20px;
+            }
+            &:nth-child(6){
+                margin-top:20px;
+            }
+            &:nth-child(7){
+                margin-top:20px;
+            }
+            &:nth-child(8){
+                margin-top:20px;
+            }
+            &:nth-child(9){
+                margin-top:20px;
+            }
+            &:nth-child(10){
+                margin-top:20px;
+            }
+            &:nth-child(11){
+                margin-top:20px;
+            }
+            &:nth-child(12){
+                margin-top:20px;
+            }
+            &:nth-child(13){
+                margin-top:20px;
+            }
+            &:nth-child(14){
+                margin-top:20px;
+            }
+            &:nth-child(15){
+                margin-top:20px;
+            }
+            &:nth-child(16){
+                margin-top:20px;
+            }
+            &:nth-child(17){
+                margin-top:20px;
+            }
+            &:nth-child(18){
+                margin-top:20px;
+            }
+            &:nth-child(19){
+                margin-top:20px;
+            }
+            &:nth-child(20){
                 margin-top:20px;
             }
             img {
