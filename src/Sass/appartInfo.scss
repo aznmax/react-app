@@ -1,62 +1,92 @@
-main {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    .appart_info {
-        img {
-            width: 1240px;
-            height: 415px;
-            display: block;
-            margin: auto;
-            border-radius: 25px;
-        }
-    }
-
-
-
-
-
-   
-    
+main.container-locations {
+    margin: 30px 80px;
+    color:#FF6060;
 }
 
-.globalContainer{
+.ensemble {
     display: flex;
-  justify-content: space-around;
-    .containerDescription{
-        width: 520px;
-        height: 52px;
-        line-height: 52px;
-        color: #fff;
-        font-size: 18px;
-        text-indent: 15px;
-        margin-left: 330px;
-        margin-top: 80px;
-        background: #FF6060;
+    justify-content: space-between;
+}
+
+.tags {
+    display: flex;
+    gap: 10px;
+    margin: 30px 0;
+    flex-wrap: wrap;
+}
+
+.tag {
+    color: white;
+    background-color: #FF6060;
+    border: solid #FF6060;
+    border-radius: 10px;
+    padding: 2px 14px;
+}
+h1.title-of-location {
+    margin-top: 30px;
+    font-size: 36px;
+    font-weight: 500;
+}
+h2.place-of-location {
+    font-size: 18px;
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+section.details-container {
+    display: flex;
+    margin-bottom: 50px;
+    justify-content: space-between;
+}
+.details-container .apropos{
+    display: block;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.container-locations .dropHead{
+    max-width: 580px;
+}
+.container-locations .dropText{
+    max-width: 580px;
+}
+
+
+
+@media only screen and (max-width: 375px) {
+
+    .tags{
+        display: flex;
     }
 
-    .containerEquipment{
-        width: 520px;
-        height: 52px;
-        line-height: 52px;
-        color: #fff;
-        font-size: 18px;
-        text-indent: 15px;
-        margin-right: 80px;
-        margin-top: 80px;
-        background: #FF6060;
+    .ensemble{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
-   .all_information_description{
-
-    .description_appart{
+    .container-locations .dropHead {
+        max-width: 95%;
+    }
+    .container-locations .dropText {
+        max-width: 95%;
+    }
+    section.details-container {
         display: block;
-        margin-left: 330px;
-        width: 30%;
-        color: #FF6060;;
-        font-size: 18px;
+        margin-top: 60px;
     }
-
-   }
+    .details-container .apropos {
+       
+        margin: 20px 0;  
+    }
+    main.container-locations {
+        margin: 15px 20px;
+    }
+    .picture {
+        width: 100%;
+        height: 220px;
+    }
 }

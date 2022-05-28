@@ -1,4 +1,4 @@
-import logo from "../src/media/logoRed.png";
+import logo from "../media/logoRed.png";
 import { Link } from "react-router-dom";
 
 function Header() {

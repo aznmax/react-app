@@ -1,78 +1,38 @@
-.BanniereAbout{
-    img{
-        width: 1240px;
-        height: 223px;
-        display: block;
-        margin: auto;
-        margin-top: 80px;
-        border-radius: 40px;
-    }
+.details {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 4vw;
+    flex-direction: column;
+    height: 100%;
+}
+.apropos {
+    display: block;
+    margin: auto;
+    padding : 15px 20px; 
+    cursor: pointer;
+    border-radius: 10px;
+    position: relative;
+    z-index: 9;
+}
 
-    .BlocAbout{
-        margin: auto;
-        width: 1023px;
-        height: 47px;
-        text-align: center;
-        line-height: 47px;
-        background-color: #FF6060;
-        border-radius: 5px;
-        color: #ffff;
-        margin-top: 150px;
-        font-size: 24px;
-        p{
-            text-align: start;
-            margin-left: 20px;
-            font-size: 24px;
-        }
-    }
-
-    .BlocAbout2{
-        margin: auto;
-        width: 1023px;
-        height: 47px;
-        text-align: center;
-        line-height: 47px;
-        background-color: #FF6060;
-        border-radius: 5px;
-        color: #ffff;
-        margin-top: 50px;
-        font-size: 24px;
-        p{
-            text-align: start;
-            margin-left: 20px;
-            font-size: 24px;
-        }
-        
-    }
+.banner{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4vw;
+    margin-top: 35px;
+}
+.banner-image{
+    width: 90%;
+    height: 200px;
+    border-radius: 25px;
+    filter: brightness(70%);
+}
+@media  screen and (max-widh:375px) {
     
-    .TextAbout2{
-        text-align: start;
-        white-space: pre-wrap;
-        width: 800px;
-        margin-left: 420px;
-        display: block;
-        font-size: 24px;
-        color: #FF6060;
-        p{
-            margin-top: 70px;
-            margin-left: 33px;
-        }
-    }
-    .BlocAbout3{
-        margin: auto;
-        width: 1023px;
-        height: 47px;
-        text-align: center;
-        line-height: 47px;
-        background-color: #FF6060;
-        border-radius: 5px;
-        color: #ffff;
-        margin-top: 80px;
-        p{
-            text-align: start;
-            margin-left: 20px;
-            font-size: 24px;
-        }
-        
-    }
+
+
 }

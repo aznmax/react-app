@@ -1,25 +1,33 @@
 // import logoAppartement from "./accommodation-20-1.jpg";
-import Banniere from "./Banniere";
-import AppartmentHome from "./AppartmentHomepage";
-import TexteBanniereAccueil from "./TexteBanniereAccueil";
-import { Link } from "react-router-dom";
+import Banniere from "../components/Banniere";
+import AppartmentHome from "../components/AppartmentHomepage";
+import TexteBanniereAccueil from "../components/TexteBanniereAccueil";
+import Falaise from "../media/Montagnes.png";
+
+
 // import AppartmentPage  from "./AppartmentPage";
 // import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function Homepage() {
     return (
         <div className="Homepage">
+            <div className="Banner">
+
             <div className="BanniereAccueil">
-                <Banniere src="/images/img1.jpg" />
-                <TexteBanniereAccueil />
+                <Banniere src={Falaise} />
+                <TexteBanniereAccueil/>
+            </div>
                 <div className="ContainerAppartement">
-                    <Link to="/AppartmentPage">
+                    
                         <AppartmentHome />
-                    </Link>
+                    
                 </div>
             </div>
+    
         </div>
     );
 }
+
+
 
 export default Homepage;

@@ -1,6 +1,6 @@
 .headerPart {
     display: flex;
-    justify-content: space-between;
+  justify-content: space-between;
 
     img{
         width: 200px;
@@ -11,11 +11,30 @@
     }
 
     ul li {
+        margin-right: 20px;
         display: inline-block;
-        margin-right: 40px;
         color: #ff6060;
         font-size: 20px;
     }
+
+@media screen and(max-width:375px){
+
+    .headerPart{
+      a{
+          img{
+              width: 85%;
+              margin-left: 30px;
+          }
+
+      }
+
+      ul {
+          margin-right: 15px;
+      }
+    }
+}
+    
+
 
 
     
