@@ -10,7 +10,6 @@ function Homepage() {
     return (
         <div className="Homepage">
             <div className="BanniereAccueil">
-                <Banniere src="/images/img1.jpg" />
                 <TexteBanniereAccueil />
                 <div className="ContainerAppartement">
                     <Link to="/AppartmentPage">

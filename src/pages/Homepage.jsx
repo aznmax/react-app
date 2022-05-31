@@ -1,8 +1,8 @@
 // import logoAppartement from "./accommodation-20-1.jpg";
-import Banniere from "../components/Banniere";
+// import Banniere from "../components/Banniere";
 import AppartmentHome from "../components/AppartmentHomepage";
 import TexteBanniereAccueil from "../components/TexteBanniereAccueil";
-import Falaise from "../media/Montagnes.png";
+// import Falaise from "../media/Montagnes.png";
 
 
 // import AppartmentPage  from "./AppartmentPage";
@@ -14,15 +14,15 @@ function Homepage() {
             <div className="Banner">
 
             <div className="BanniereAccueil">
-                <Banniere src={Falaise} />
+                {/* <Banniere src={Falaise} /> */}
                 <TexteBanniereAccueil/>
+            </div>
             </div>
                 <div className="ContainerAppartement">
                     
                         <AppartmentHome />
                     
                 </div>
-            </div>
     
         </div>
     );

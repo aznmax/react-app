@@ -1,14 +1,20 @@
 .headerPart {
-    display: flex;
-  justify-content: space-between;
+ display: flex;
+ justify-content: space-between;
 
     img{
-        width: 200px;
-        margin-left: 50px;
-        margin-top: 10px;
+        margin-top:40px;
+        margin-left: 100px;
     }
+  
         
     }
+
+    ul{
+        margin-right: 250px;
+        margin-top: 80px;
+    }
+  
 
     ul li {
         margin-right: 20px;
@@ -20,16 +26,23 @@
 @media screen and(max-width:375px){
 
     .headerPart{
+        display: flex;
       a{
           img{
-              width: 85%;
-              margin-left: 30px;
+              width: 100%;
+              margin-top: 50px;
+              margin-left: 25px;
+            
           }
 
       }
 
       ul {
-          margin-right: 15px;
+        margin-right: 5px;
+          li{
+              white-space: nowrap;
+             margin-right: 20px;
+          }
       }
     }
 }
