@@ -63,7 +63,7 @@
     }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 428px) {
     body {
         height: 100vh;
     }
@@ -72,13 +72,19 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        width: 100%;
+       
         img {
-            margin-left: 0px;
+            margin-left: 20px;
+            width: 130px;
+            margin-top: 60px;
         }
 
         ul {
             display: flex;
+        }
+
+        li{
+            white-space: nowrap;
         }
     }
 

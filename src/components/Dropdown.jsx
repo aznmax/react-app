@@ -1,10 +1,9 @@
-
 import React from 'react';
 import { useState } from 'react' 
 
+import "../Sass/dropdown.scss"
 import chevrondown from "../media/chevrondown.svg"
 import chevronup from "../media/chevronup.svg"
-
 
 
 function Dropdown({title, content}) {
@@ -14,7 +13,7 @@ function Dropdown({title, content}) {
     
     return  (
         <div className="apropos"> 
-    
+
 
           <div className='dropHead'>
             <h1>{title}</h1> 
@@ -32,7 +31,7 @@ function Dropdown({title, content}) {
           {!isClose && <div className='textpropos'>
 
             {Array.isArray(content) ? 
-               <ul className='dropText'>  {content.map(item => <li className='litext'>{item}</li> ) }   </ul>
+               <ul className='dropText'>  {content.map(item => <li key={item}>{item}</li> ) }   </ul>
                :
                <p className='dropText'>{content}</p>
             }
@@ -43,4 +42,4 @@ function Dropdown({title, content}) {
     )
 }
 
-export default Dropdown
+export default Dropdown;

@@ -44,38 +44,8 @@ span.chevronDown {
 }
 
 
-@media only screen and (max-width: 1400px) {
 
-    .details .dropHead{
-        width: 900px;
-    }
-    .details .dropText{
-        width: 900px;
-    }
-}
-
-@media only screen and (max-width: 1100px) {
-
-    .details .dropHead{
-        width: 700px;
-    }
-    .details .dropText{
-        width: 700px;
-    }
-
-}
-
-@media only screen and (max-width: 800px) {
-
-    .details .dropHead{
-        width: 500px;
-    }
-    .details .dropText{
-        width: 500px;
-    }
-    
-}
-@media only screen and (max-width: 600px) {
+@media  screen and (max-width: 428px) {
 
     .details .dropHead{
         width: 290px;
