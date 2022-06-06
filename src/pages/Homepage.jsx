@@ -12,7 +12,6 @@ function Homepage() {
     return (
         <div className="Homepage">
             <div className="Banner">
-
             <div className="BanniereAccueil">
                 {/* <Banniere src={Falaise} /> */}
                 <TexteBanniereAccueil/>
